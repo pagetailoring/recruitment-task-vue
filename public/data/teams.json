@@ -1,0 +1,678 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Legia Warszawa",
+      "founded": 1916,
+      "stadium": "Polish Army Stadium",
+      "coach": "Kosta Runjaić",
+      "keyPlayers": [
+        "Josué Pesqueira",
+        "Paweł Wszołek",
+        "Tomas Pekhart"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lech Poznań",
+      "founded": 1922,
+      "stadium": "INEA Stadium",
+      "coach": "John van den Brom",
+      "keyPlayers": [
+        "Mikael Ishak",
+        "Joel Pereira",
+        "Filip Marchwiński"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Raków Częstochowa",
+      "founded": 1921,
+      "stadium": "Municipal Stadium",
+      "coach": "Marek Papszun",
+      "keyPlayers": [
+        "Ivi López",
+        "Fran Tudor",
+        "Vladislavs Gutkovskis"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pogoń Szczecin",
+      "founded": 1948,
+      "stadium": "Florian Krygier Municipal Stadium",
+      "coach": "Jens Gustafsson",
+      "keyPlayers": [
+        "Kamil Grosicki",
+        "Alexander Gorgon",
+        "Luka Zahović"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Wisła Kraków",
+      "founded": 1906,
+      "stadium": "Henryk Reyman Municipal Stadium",
+      "coach": "Radosław Sobolewski",
+      "keyPlayers": [
+        "Zdeněk Ondrášek",
+        "Luis Fernández",
+        "Michał Żyro"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Górnik Zabrze",
+      "founded": 1948,
+      "stadium": "Ernest Pohl Stadium",
+      "coach": "Jan Urban",
+      "keyPlayers": [
+        "Lukas Podolski",
+        "Szymon Włodarczyk",
+        "Dani Pacheco"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Jagiellonia Białystok",
+      "founded": 1920,
+      "stadium": "Municipal Stadium",
+      "coach": "Adrian Siemieniec",
+      "keyPlayers": [
+        "Jesus Imaz",
+        "Bartłomiej Wdowik",
+        "Afimico Pululu"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Widzew Łódź",
+      "founded": 1910,
+      "stadium": "Widzew Stadium",
+      "coach": "Daniel Myśliwiec",
+      "keyPlayers": [
+        "Bartłomiej Pawłowski",
+        "Jordi Sánchez",
+        "Mato Miloš"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Cracovia",
+      "founded": 1906,
+      "stadium": "Józef Piłsudski Stadium",
+      "coach": "Jacek Zieliński",
+      "keyPlayers": [
+        "Patryk Makuch",
+        "Michał Rakoczy",
+        "Benjamin Kallman"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Piast Gliwice",
+      "founded": 1945,
+      "stadium": "Municipal Stadium",
+      "coach": "Aleksandar Vuković",
+      "keyPlayers": [
+        "Damian Kądzior",
+        "Jorge Félix",
+        "Arkadiusz Pyrka"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Zagłębie Lubin",
+      "founded": 1946,
+      "stadium": "Zagłębie Stadium",
+      "coach": "Waldemar Fornalik",
+      "keyPlayers": [
+        "Tomasz Pieńko",
+        "Kacper Chodyna",
+        "Damjan Bohar"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Śląsk Wrocław",
+      "founded": 1947,
+      "stadium": "Municipal Stadium",
+      "coach": "Jacek Magiera",
+      "keyPlayers": [
+        "Jakub Świerczok",
+        "Piotr Samiec-Talar",
+        "Marcin Cebula"
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "date": "2023-08-05",
+      "homeTeamId": 1,
+      "awayTeamId": 2,
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "id": 2,
+      "date": "2023-08-05",
+      "homeTeamId": 3,
+      "awayTeamId": 4,
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "id": 3,
+      "date": "2023-08-06",
+      "homeTeamId": 5,
+      "awayTeamId": 6,
+      "homeScore": 1,
+      "awayScore": 3
+    },
+    {
+      "id": 4,
+      "date": "2023-08-06",
+      "homeTeamId": 7,
+      "awayTeamId": 8,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 5,
+      "date": "2023-08-07",
+      "homeTeamId": 9,
+      "awayTeamId": 10,
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": 6,
+      "date": "2023-08-07",
+      "homeTeamId": 11,
+      "awayTeamId": 12,
+      "homeScore": 3,
+      "awayScore": 2
+    },
+    {
+      "id": 7,
+      "date": "2023-08-12",
+      "homeTeamId": 1,
+      "awayTeamId": 3,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 8,
+      "date": "2023-08-12",
+      "homeTeamId": 2,
+      "awayTeamId": 5,
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": 9,
+      "date": "2023-08-13",
+      "homeTeamId": 4,
+      "awayTeamId": 7,
+      "homeScore": 0,
+      "awayScore": 2
+    },
+    {
+      "id": 10,
+      "date": "2023-08-13",
+      "homeTeamId": 6,
+      "awayTeamId": 9,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 11,
+      "date": "2023-08-14",
+      "homeTeamId": 8,
+      "awayTeamId": 11,
+      "homeScore": 1,
+      "awayScore": 3
+    },
+    {
+      "id": 12,
+      "date": "2023-08-14",
+      "homeTeamId": 10,
+      "awayTeamId": 12,
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "id": 13,
+      "date": "2023-08-19",
+      "homeTeamId": 1,
+      "awayTeamId": 4,
+      "homeScore": 3,
+      "awayScore": 1
+    },
+    {
+      "id": 14,
+      "date": "2023-08-19",
+      "homeTeamId": 2,
+      "awayTeamId": 6,
+      "homeScore": 0,
+      "awayScore": 2
+    },
+    {
+      "id": 15,
+      "date": "2023-08-20",
+      "homeTeamId": 3,
+      "awayTeamId": 8,
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": 16,
+      "date": "2023-08-20",
+      "homeTeamId": 5,
+      "awayTeamId": 10,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 17,
+      "date": "2023-08-21",
+      "homeTeamId": 7,
+      "awayTeamId": 12,
+      "homeScore": 3,
+      "awayScore": 2
+    },
+    {
+      "id": 18,
+      "date": "2023-08-21",
+      "homeTeamId": 9,
+      "awayTeamId": 11,
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
+      "id": 19,
+      "date": "2023-08-26",
+      "homeTeamId": 1,
+      "awayTeamId": 5,
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "id": 20,
+      "date": "2023-08-26",
+      "homeTeamId": 2,
+      "awayTeamId": 7,
+      "homeScore": 1,
+      "awayScore": 3
+    },
+    {
+      "id": 21,
+      "date": "2023-08-27",
+      "homeTeamId": 3,
+      "awayTeamId": 9,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 22,
+      "date": "2023-08-27",
+      "homeTeamId": 4,
+      "awayTeamId": 11,
+      "homeScore": 0,
+      "awayScore": 1
+    },
+    {
+      "id": 23,
+      "date": "2023-08-28",
+      "homeTeamId": 6,
+      "awayTeamId": 12,
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "id": 24,
+      "date": "2023-08-28",
+      "homeTeamId": 8,
+      "awayTeamId": 10,
+      "homeScore": 3,
+      "awayScore": 1
+    },
+    {
+      "id": 25,
+      "date": "2023-09-02",
+      "homeTeamId": 1,
+      "awayTeamId": 6,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 26,
+      "date": "2023-09-02",
+      "homeTeamId": 2,
+      "awayTeamId": 8,
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": 27,
+      "date": "2023-09-03",
+      "homeTeamId": 3,
+      "awayTeamId": 10,
+      "homeScore": 3,
+      "awayScore": 2
+    },
+    {
+      "id": 28,
+      "date": "2023-09-03",
+      "homeTeamId": 4,
+      "awayTeamId": 12,
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
+      "id": 29,
+      "date": "2023-09-04",
+      "homeTeamId": 5,
+      "awayTeamId": 11,
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "id": 30,
+      "date": "2023-09-04",
+      "homeTeamId": 7,
+      "awayTeamId": 9,
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "id": 31,
+      "date": "2023-09-09",
+      "homeTeamId": 1,
+      "awayTeamId": 7,
+      "homeScore": 3,
+      "awayScore": 1
+    },
+    {
+      "id": 32,
+      "date": "2023-09-09",
+      "homeTeamId": 2,
+      "awayTeamId": 9,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 33,
+      "date": "2023-09-10",
+      "homeTeamId": 3,
+      "awayTeamId": 11,
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
+      "id": 34,
+      "date": "2023-09-10",
+      "homeTeamId": 4,
+      "awayTeamId": 6,
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "id": 35,
+      "date": "2023-09-11",
+      "homeTeamId": 5,
+      "awayTeamId": 8,
+      "homeScore": 1,
+      "awayScore": 3
+    },
+    {
+      "id": 36,
+      "date": "2023-09-11",
+      "homeTeamId": 10,
+      "awayTeamId": 12,
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "id": 37,
+      "date": "2023-09-16",
+      "homeTeamId": 1,
+      "awayTeamId": 8,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 38,
+      "date": "2023-09-16",
+      "homeTeamId": 2,
+      "awayTeamId": 10,
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": 39,
+      "date": "2023-09-17",
+      "homeTeamId": 3,
+      "awayTeamId": 12,
+      "homeScore": 3,
+      "awayScore": 2
+    },
+    {
+      "id": 40,
+      "date": "2023-09-17",
+      "homeTeamId": 4,
+      "awayTeamId": 5,
+      "homeScore": 0,
+      "awayScore": 2
+    },
+    {
+      "id": 41,
+      "date": "2023-09-18",
+      "homeTeamId": 6,
+      "awayTeamId": 7,
+      "homeScore": 1,
+      "awayScore": 3
+    },
+    {
+      "id": 42,
+      "date": "2023-09-18",
+      "homeTeamId": 9,
+      "awayTeamId": 11,
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "id": 43,
+      "date": "2023-09-23",
+      "homeTeamId": 1,
+      "awayTeamId": 9,
+      "homeScore": 3,
+      "awayScore": 0
+    },
+    {
+      "id": 44,
+      "date": "2023-09-23",
+      "homeTeamId": 2,
+      "awayTeamId": 11,
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
+      "id": 45,
+      "date": "2023-09-24",
+      "homeTeamId": 3,
+      "awayTeamId": 6,
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "id": 46,
+      "date": "2023-09-24",
+      "homeTeamId": 4,
+      "awayTeamId": 8,
+      "homeScore": 1,
+      "awayScore": 3
+    },
+    {
+      "id": 47,
+      "date": "2023-09-25",
+      "homeTeamId": 5,
+      "awayTeamId": 7,
+      "homeScore": 0,
+      "awayScore": 1
+    },
+    {
+      "id": 48,
+      "date": "2023-09-25",
+      "homeTeamId": 10,
+      "awayTeamId": 12,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 49,
+      "date": "2023-09-30",
+      "homeTeamId": 1,
+      "awayTeamId": 10,
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "id": 50,
+      "date": "2023-09-30",
+      "homeTeamId": 2,
+      "awayTeamId": 12,
+      "homeScore": 0,
+      "awayScore": 2
+    },
+    {
+      "id": 51,
+      "date": "2023-10-01",
+      "homeTeamId": 3,
+      "awayTeamId": 5,
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": 52,
+      "date": "2023-10-01",
+      "homeTeamId": 4,
+      "awayTeamId": 9,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 53,
+      "date": "2023-10-02",
+      "homeTeamId": 6,
+      "awayTeamId": 8,
+      "homeScore": 1,
+      "awayScore": 3
+    },
+    {
+      "id": 54,
+      "date": "2023-10-02",
+      "homeTeamId": 7,
+      "awayTeamId": 11,
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "id": 55,
+      "date": "2023-10-07",
+      "homeTeamId": 1,
+      "awayTeamId": 11,
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "id": 56,
+      "date": "2023-10-07",
+      "homeTeamId": 2,
+      "awayTeamId": 4,
+      "homeScore": 3,
+      "awayScore": 0
+    },
+    {
+      "id": 57,
+      "date": "2023-10-08",
+      "homeTeamId": 3,
+      "awayTeamId": 7,
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
+      "id": 58,
+      "date": "2023-10-08",
+      "homeTeamId": 5,
+      "awayTeamId": 9,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 59,
+      "date": "2023-10-09",
+      "homeTeamId": 6,
+      "awayTeamId": 10,
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": 60,
+      "date": "2023-10-09",
+      "homeTeamId": 8,
+      "awayTeamId": 12,
+      "homeScore": 3,
+      "awayScore": 2
+    },
+    {
+      "id": 61,
+      "date": "2023-10-14",
+      "homeTeamId": 1,
+      "awayTeamId": 12,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": 62,
+      "date": "2023-10-14",
+      "homeTeamId": 2,
+      "awayTeamId": 3,
+      "homeScore": 1,
+      "awayScore": 3
+    },
+    {
+      "id": 63,
+      "date": "2023-10-15",
+      "homeTeamId": 4,
+      "awayTeamId": 10,
+      "homeScore": 0,
+      "awayScore": 2
+    },
+    {
+      "id": 64,
+      "date": "2023-10-15",
+      "homeTeamId": 5,
+      "awayTeamId": 6,
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": 65,
+      "date": "2023-10-16",
+      "homeTeamId": 7,
+      "awayTeamId": 8,
+      "homeScore": 2,
+      "awayScore": 3
+    },
+    {
+      "id": 66,
+      "date": "2023-10-16",
+      "homeTeamId": 9,
+      "awayTeamId": 11,
+      "homeScore": 1,
+      "awayScore": 2
+    }
+  ]
+}
