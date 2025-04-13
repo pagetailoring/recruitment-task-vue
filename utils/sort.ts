@@ -6,16 +6,10 @@ export enum SortField {
   Draws = 'draws',
   Losses = 'losses',
   GoalsFor = 'goalsFor',
-  GoalsAgainst = 'goalsAgainst'
+  GoalsAgainst = 'goalsAgainst',
 }
 
 export enum SortDirection {
   Asc = 'asc',
-  Desc = 'desc'
+  Desc = 'desc',
 }
-
-export enum MatchResult {
-  Win = 'W',
-  Draw = 'D',
-  Loss = 'L'
-} 

@@ -1,5 +1,3 @@
-import { MatchResult } from './enums';
-
 export interface Team {
   id: number;
   name: string;
@@ -15,6 +13,11 @@ export interface Team {
   goalsFor: number;
   goalsAgainst: number;
   recentForm: MatchResult[];
+}
+
+export interface TeamsResponse {
+  teams: Team[];
+  matches: Match[];
 }
 
 export interface Match {
@@ -35,4 +38,4 @@ export interface FormattedMatch {
   awayScore: number;
   result: MatchResult;
   isHome: boolean;
-} 
+}
