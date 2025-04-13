@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "recruitment-task-vue",
   "private": true,
   "type": "module",
   "scripts": {
@@ -7,7 +7,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "analyze": "nuxi analyze",
+    "clean": "nuxi cleanup",
+    "up": "nuxi upgrade",
+    "upgrade": "nuxi upgrade"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.14",
