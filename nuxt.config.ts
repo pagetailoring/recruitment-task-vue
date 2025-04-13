@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', '@nuxtjs/html-validator'],
+  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', '@nuxtjs/html-validator', '@pinia/nuxt'],
 
   css: ['~/assets/main.css'],
   postcss: {
