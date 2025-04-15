@@ -1,26 +1,24 @@
 <script setup lang="ts">
 import type { NuxtError } from '#app';
 
-const props = defineProps<{ error: NuxtError }>();
+defineProps<{ error: NuxtError }>();
 
 const handleError = () => {
   clearError({ redirect: '/' });
 };
 
-onMounted(() => {
+onBeforeMount(() => {
   console.clear();
-  setTimeout(() => handleError(), 100);
+  nextTick(() => handleError());
   console.log('redirect 🚀');
 });
 </script>
 
 <template>
-  <div id="__page">
-    <div id="__scroll" class="main error">
-      <h1>{{ props.error.statusCode }}</h1>
-      <button type="button" class="btn" aria-label="home" @click="handleError">
-        <span class="action"> &larr;</span>
-      </button>
-    </div>
+  <div style="padding: 1rem; opacity: 0.8">
+    <NuxtLink to="/" aria-label="go home page" style="font-size: 1.333em">
+      <span class="action"> &larr; </span> <span> {{ error.statusCode }}</span>
+    </NuxtLink>
+    <p style="padding-left: 1em">{{ error.message }}</p>
   </div>
 </template>

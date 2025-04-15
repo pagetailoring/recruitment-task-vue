@@ -9,7 +9,5 @@
       "@/*": ["./*"]
     }
   },
-  "include": [
-    "types/**/*.d.ts" // Make sure this includes your types folder
-  ]
+  "include": ["types/**/*.d.ts"]
 }
